@@ -60,3 +60,8 @@ footer h3, footer h1 {
 }
 
 footer.flex{align-items:flex-end; justify-content:flex-start;} 
+.container{margin-bottom:50px;}
+
+@media screen and (min-width:600px){
+footer .primary{display:none;}
+}
