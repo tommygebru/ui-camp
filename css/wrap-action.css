@@ -1,0 +1,98 @@
+/****************************
+    W R A P - A C T I O N
+ ****************************/
+
+input {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	width: 230px;
+	height: 55px;
+	margin-bottom: 13px;
+	border: solid 1px;
+	border-radius: 5px;
+}
+input:nth-child(2):hover {
+	background: #f66;
+}
+input[type=email]:focus {
+	color: #f60;
+	border: solid 1px #999;
+	outline: none;
+	background-image: none;
+	box-shadow: none;
+}
+input[type=email] {
+	padding-left: 10px;
+	text-align: left;
+}
+input[type=submit], input[type=submit]:focus {
+	color: white;
+	outline: none;
+	background: #f60;
+	background-image: none;
+	box-shadow: none;
+}
+input::-moz-selection {
+	background: rgba(0, 0, 0, .1);
+}
+input::selection {
+	background: rgba(0, 0, 0, .1);
+}
+/*
+.greeting h1, .greeting h2 {
+	margin-bottom: 50px;
+}
+.greeting h2, .greeting h3 {
+	padding-left: 30px;
+}
+.greeting h3 {
+	line-height: 25px;
+}
+.greeting h3 span {
+	font-size: 1.19em;
+	color: #f60;
+}
+*/
+
+
+.wrap-action h1, .wrap-action h2, .wrap-action h3, .wrap-action form{margin:30px 0;}
+.wrap-action, .wrap-action2{margin:50px 0;}
+
+
+.wrap-action2 h2{margin:100px 0;}
+.wrap-action2 h3, .wrap-action2 form{margin:30px 0;}
+/****************************
+   R E P E A T - A C T I O N
+ ****************************/
+
+input[type=submit] {
+	cursor: pointer;
+}
+.rpt-action {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+	background: white;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+}
+.rpt-action h3 {
+	margin: 25px;
+}
+
+
+
+

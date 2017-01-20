@@ -1,0 +1,32 @@
+/*******************************
+   W R A P - P R O J E C T S
+*******************************/
+
+.wrap-projects img {
+	width: 250px;
+	border: solid 1px orange;
+	border-radius: 5px;
+	margin:20px 0;
+}
+
+.wrap-projects{margin:50px 0; 
+/*background: linear-gradient(white, #fafafa);
+*/
+}
+
+.wrap-projects div{justify-content:space-around;}
+
+.projects p {
+	font-size: 1.2em;
+	line-height: 20px;
+	color: #666;
+}
+.projects a {
+	text-decoration: none;
+	color: #f60;
+}
+
+
+@media screen and (min-width: 800px) {
+.wrap-projects{width:80%;}
+}

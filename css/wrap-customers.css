@@ -1,0 +1,93 @@
+/****************************
+   O U R   C U S T O M E R S
+ ****************************/
+
+.customers {
+	/*width: 100%;
+	margin: 0 auto;*/
+	background: #fafafa;
+}
+
+.customers .wrap {
+	/*display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	margin: 50px 15px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	-webkit-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;*/
+}
+.customers .main {
+	/*display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;*/
+}
+.customers .text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.customers h3, .customers h5 {
+	line-height: 20px;
+}
+.customers h3 {
+	font-weight: 700;
+	color: #999;
+}
+.customers h4 {
+	font-weight: 100;
+	color: #777;
+}
+.customers h5 {
+	font-size: .9em;
+	font-weight: 400;
+	margin: 15px;
+	color: #777;
+}
+
+/**********************************
+	W R A P - C U S T O M E R S
+**********************************/
+.wrap-customers{margin:50px 0; }
+.wrap-customers .secondary{width:400px;}
+.wrap-customers img{width:80px; height:80px; border-radius:50%;}
+@media screen and (max-width: 480px) {
+.wrap-customers .secondary{flex-direction:column; width:250px;}
+}
+@media screen and (min-width: 700px){
+.wrap-customers{width:90%;}
+}

@@ -1,0 +1,62 @@
+/****************************
+     M E D I A  Q U E R Y
+ ****************************/
+
+/*@media screen and (max-width: 375px) {
+	.customers h1, .projects {
+		width: 100%;
+	}
+	.greeting h2, .greeting h3 {
+		padding-left: 10px;
+	}
+	.customers h5 {
+		width: 200px;
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	footer div {
+		margin: 15px;
+	}
+}
+@media screen and (max-width:550px) {
+	.customers .wrap, .customers .text {
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.customers .wrap img {
+		width: 80px;
+		height: 80px;
+		margin: 25px;
+	}
+	form {
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	footer div {
+		margin: 15px;
+	}
+	.projects {
+		width: 100%;
+	}
+}
+*/
