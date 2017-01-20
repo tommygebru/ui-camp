@@ -60,10 +60,4 @@ footer h3, footer h1 {
 
 footer.flex{align-items:flex-end; justify-content:flex-start; width:100%; margin:0 auto;} 
 
-
 .container{padding-bottom:30px;}
-
-
-@media screen and (max-width:400px){
-
-}
