@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	margin: 0 auto;
 	text-align: center;
-	background: rgba(0, 0, 0, .1);
+	/*background: rgba(0, 0, 0, .1);*/
 	font-family: 'Quicksand', sans-serif;
 	font-weight:100;
 }
