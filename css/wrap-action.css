@@ -57,8 +57,8 @@ input::selection {
 
 
 .wrap-action h1, .wrap-action h2, .wrap-action h3, .wrap-action form{margin:30px 0;}
-.wrap-action, .wrap-action2{margin:100px 0;}
-
+.wrap-action2{margin:100px 0;}
+.wrap-action{margin-bottom:100px;}
 
 .wrap-action2 h2{margin:100px 0;}
 .wrap-action2 h3, .wrap-action2 form{margin:30px 0;}
