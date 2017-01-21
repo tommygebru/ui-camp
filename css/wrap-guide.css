@@ -34,7 +34,7 @@
 
 
 
-.wrap-guide{margin:50px 0; padding:0px;}
+.wrap-guide{margin:50px 0; padding:0px; background:linear-gradient(white, rgba(250,250,250, .3));}
 .wrap-guide div {padding:0px;}
 /*.wrap-guide div{padding:0; margin:0;}*/
 .wrap-guide .primary{justify-content:center; margin:0px;} 
