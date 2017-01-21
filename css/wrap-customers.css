@@ -2,7 +2,7 @@
    O U R   C U S T O M E R S
  ****************************/
 
-.customers {
+.wrap-customers {
 	/*width: 100%;
 	margin: 0 auto;*/
 	background: #fafafa;
@@ -82,12 +82,12 @@
 /**********************************
 	W R A P - C U S T O M E R S
 **********************************/
-.wrap-customers{margin:50px 0; }
+.wrap-customers{margin:100px 0; width: 100%; padding:100px 0;}
 .wrap-customers .secondary{width:400px;}
-.wrap-customers img{width:80px; height:80px; border-radius:50%;}
+.wrap-customers img{width:80px; border-radius:50%;}
 @media screen and (max-width: 480px) {
 .wrap-customers .secondary{flex-direction:column; width:250px;}
 }
 @media screen and (min-width: 700px){
-.wrap-customers{width:90%;}
+div.wrap-customers{width:100%;}
 }
