@@ -34,9 +34,10 @@
 
 
 
-.wrap-guide{margin:50px 0;}
+.wrap-guide{margin:50px 0; padding:0px;}
+.wrap-guide div {padding:0px;}
 /*.wrap-guide div{padding:0; margin:0;}*/
-.wrap-guide .primary{justify-content:center; width:100%;}
+.wrap-guide .primary{justify-content:center; margin:0px;} 
 .wrap-guide .secondary{margin:0px; height:330px; width:275px; justify-content:space-between;}
 .wrap-guide .secondary div{height:200px; width:270px;}
 .figure-3{
@@ -55,5 +56,6 @@ border-top-left-radius: 10px;}
 
 @media screen and (min-width: 800px) {
 .wrap-guide{width:80%;}
-.wrap-guide .primary{justify-content:space-between; width:100%;}
+.wrap-guide .primary{justify-content:space-around; width:100%;}
 }
+
